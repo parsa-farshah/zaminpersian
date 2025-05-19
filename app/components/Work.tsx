@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 import dotWork from "../../public/images/dotsWork.svg";
 import imageWork from "../../public/images/imageWork2.svg";
-import dotBlu from "../../public/images/dotBlu.svg";
 import younes from "../../public/images/younesImage.png";
 function Work() {
   return (

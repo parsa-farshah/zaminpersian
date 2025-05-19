@@ -20,11 +20,11 @@ function Header() {
         />
       </div>
       <div className="pt-1">
-        <h1 className="text-center font-roboto text-[#282828] pt-6 sm:pt-0 text-[32px] sm:text-[42px] leading-11 sm:leading-13 font-extrabold sm:font-bold">
-          طراحی و توسعه وبسایت در کلاس جهانی <br className="md:hidden block" />
+        <h1 className="text-center font-roboto text-[#282828] pt-6 sm:pt-0 text-[28px] sm:text-[38px] leading-11 sm:leading-13 font-extrabold sm:font-bold font-vazir">
+          طراحی و توسعه وبسایت در کلاس جهانی
           <br className="lg:block hidden" /> برای متفاوت دیده شدن
         </h1>
-        <p className="pt-3 sm:pt-2 text-[14px] font-inter font-normal text-[#717171] leading-6 text-center">
+        <p className="pt-3 sm:pt-2 text-[14px] font-inter font-normal text-[#717171] leading-6 text-center font-vazir">
           تیم زمین آمده است تا برای طراحی و توسعه یک وبسایت دوستانه و مدرن در
           کنار شما
           <br />
@@ -37,12 +37,12 @@ function Header() {
           <div className="bg-[#BFBFBF] w-full h-0.5"></div>
           <div className="flex gap-3">
             <div className="w-full flex justify-center">
-              <button className="w-[131px] cursor-pointer flex justify-center items-center h-9 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br shadow-md shadow-blue-100/20 dark:shadow-md dark:shadow-blue-300/80 font-medium rounded-lg text-sm text-center font-inter">
+              <button className="w-[131px] cursor-pointer flex justify-center items-center h-9 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br shadow-md shadow-blue-100/20 dark:shadow-md dark:shadow-blue-300/80 font-medium rounded-lg text-sm text-center font-vazir">
                 اطلاعات بیشتر
               </button>
             </div>
             <div className="w-full flex justify-center">
-              <button className="w-[131px] cursor-pointer flex  justify-center text-sm items-center h-9 text-[#1B1B1B] bg-gradient-to-r from-gray-100 via-gray-200 to-gray-350 hover:bg-gradient-to-br shadow-md shadow-gray-100/20 dark:shadow-md dark:shadow-gray-300/80 font-medium rounded-lg text-center font-inter ">
+              <button className="w-[131px] cursor-pointer flex  justify-center text-sm items-center h-9 text-[#1B1B1B] bg-gradient-to-r from-gray-100 via-gray-200 to-gray-350 hover:bg-gradient-to-br shadow-md shadow-gray-100/20 dark:shadow-md dark:shadow-gray-300/80 font-medium rounded-lg text-center font-vazir ">
                 ثبت درخواست
               </button>
             </div>
@@ -88,7 +88,10 @@ function Header() {
 
       {/* end 4image */}
       <div className="flex justify-center items-center gap-2 pt-3">
-        <p className="font-inter text-[12px] font-medium"> آماده به کار</p>
+        <p className="font-inter text-[12px] font-medium font-vazir">
+          {" "}
+          آماده به کار
+        </p>
         <span className=" relative flex size-2">
           <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
           <span className="relative inline-flex size-2 rounded-full bg-green-600"></span>

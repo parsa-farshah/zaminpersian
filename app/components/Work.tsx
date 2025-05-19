@@ -10,7 +10,7 @@ function Work() {
         <div className="bg-[#EAEAEA] w-full h-0.5"></div>
         <div className="flex gap-3">
           <div className="w-full flex justify-center">
-            <button className="w-[131px] flex justify-center rounded-[12px] items-center h-9 bg-[#EBEBEB] font-semibold  text-sm text-center font-inter ">
+            <button className="w-[131px] flex justify-center rounded-[12px] items-center h-9 bg-[#EBEBEB] font-semibold  text-sm text-center font-vazir ">
               <Image className="w-[17px] mx-2" src={dotWork} alt="" />
               نمونه کارها
               <Image className="w-[17px] mx-2" src={dotWork} alt="" />
@@ -20,10 +20,10 @@ function Work() {
         <div className="bg-[#EAEAEA] w-full h-0.5"></div>
       </div>
       <div className="pt-6 flex flex-col items-center justify-center">
-        <h3 className="font-inter font-medium text-2xl text-black">
+        <h3 className="font-inter font-medium text-2xl text-black font-vazir">
           برخی از نمونه کارهای ما
         </h3>
-        <p className="font-inter font-light text-[14px] text-[#727272] text-center pt-3">
+        <p className="font-inter font-light text-[14px] text-[#727272] text-center pt-3 font-vazir">
           جایی که حتی یک پیکسل‌هم با دقت <br /> جایگذاری شده است
         </p>
         {/* image section */}
@@ -34,7 +34,7 @@ function Work() {
             <div className="flex justify-between sm:justify-between items-center w-full h-[57px]">
               <div className="pt-5 flex flex-col justify-end items-end">
                 <div>
-                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3]">
+                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir">
                     اعضا
                   </h3>
                 </div>
@@ -75,7 +75,7 @@ function Work() {
                 </div>
               </div>
               <div className="hidden sm:block">
-                <h3 className="font-inter flex justify-end font-bold text-[10px] text-[#C3C3C3] pt-4">
+                <h3 className="font-inter flex justify-end font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
                   تکنولوژی ها
                 </h3>
                 <p className="font-inter font-normal text-[14px] text-[#464646] pt-4">
@@ -83,10 +83,10 @@ function Work() {
                 </p>
               </div>
               <div>
-                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4">
+                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
                   نام پروژه
                 </h3>
-                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4">
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir">
                   کافینو
                 </p>
               </div>
@@ -100,7 +100,7 @@ function Work() {
             <div className="flex justify-between sm:justify-between items-center w-full h-[57px]">
               <div className="pt-5 flex flex-col justify-end items-end">
                 <div>
-                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3]">
+                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir">
                     اعضا
                   </h3>
                 </div>
@@ -141,7 +141,7 @@ function Work() {
                 </div>
               </div>
               <div className="hidden sm:block">
-                <h3 className="font-inter flex justify-end font-bold text-[10px] text-[#C3C3C3] pt-4">
+                <h3 className="font-inter flex justify-end font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
                   تکنولوژی ها
                 </h3>
                 <p className="font-inter font-normal text-[14px] text-[#464646] pt-4">
@@ -149,10 +149,10 @@ function Work() {
                 </p>
               </div>
               <div>
-                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4">
+                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
                   نام پروژه
                 </h3>
-                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4">
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir">
                   کافینو
                 </p>
               </div>
@@ -166,7 +166,7 @@ function Work() {
           <div className="bg-[#EAEAEA] w-full h-0.5"></div>
           <div className="flex gap-3">
             <div className="w-full flex justify-center">
-              <button className="w-[138px] cursor-pointer flex justify-center text-sm items-center h-9 text-black bg-[white] font-medium rounded-lg text-center font-inter border-2 border-[#EAEAEA]">
+              <button className="w-[138px] cursor-pointer flex justify-center text-sm items-center h-9 text-black bg-[white] font-medium rounded-lg text-center font-vazir border-2 border-[#EAEAEA]">
                 نمونه کارهای بیشتر
               </button>
             </div>

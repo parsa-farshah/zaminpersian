@@ -37,12 +37,12 @@ function Header() {
           <div className="bg-[#BFBFBF] w-full h-0.5"></div>
           <div className="flex gap-3">
             <div className="w-full flex justify-center">
-              <button className="w-[131px] cursor-pointer flex  justify-center text-sm items-center h-9 text-white bg-gradient-to-r from-gray-950 via-gray-800 to-gray-950 hover:bg-gradient-to-br shadow-md shadow-gray-100/20 dark:shadow-md dark:shadow-gray-300/80 font-medium rounded-lg text-center font-inter ">
+              <button className="w-[131px] cursor-pointer flex justify-center items-center h-9 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br shadow-md shadow-blue-100/20 dark:shadow-md dark:shadow-blue-300/80 font-medium rounded-lg text-sm text-center font-inter">
                 اطلاعات بیشتر
               </button>
             </div>
             <div className="w-full flex justify-center">
-              <button className="w-[131px] cursor-pointer flex justify-center items-center h-9 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br shadow-md shadow-blue-100/20 dark:shadow-md dark:shadow-blue-300/80 font-medium rounded-lg text-sm text-center font-inter">
+              <button className="w-[131px] cursor-pointer flex  justify-center text-sm items-center h-9 text-[#1B1B1B] bg-gradient-to-r from-gray-100 via-gray-200 to-gray-350 hover:bg-gradient-to-br shadow-md shadow-gray-100/20 dark:shadow-md dark:shadow-gray-300/80 font-medium rounded-lg text-center font-inter ">
                 ثبت درخواست
               </button>
             </div>

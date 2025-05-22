@@ -10,7 +10,7 @@ function Work() {
         <div className="bg-[#EAEAEA] w-full h-0.5"></div>
         <div className="flex gap-3">
           <div className="w-full flex justify-center">
-            <button className="w-[131px] flex justify-center rounded-[12px] items-center h-9 bg-[#EBEBEB] font-semibold  text-sm text-center font-vazir ">
+            <button className="w-[131px] flex justify-center rounded-[12px] items-center h-9 bg-[#EBEBEB] font-semibold  text-sm text-center">
               <Image className="w-[17px] mx-2" src={dotWork} alt="" />
               نمونه کارها
               <Image className="w-[17px] mx-2" src={dotWork} alt="" />

@@ -20,11 +20,11 @@ function Header() {
         />
       </div>
       <div className="pt-1">
-        <h1 className="text-center font-roboto text-[#282828] pt-6 sm:pt-0 text-[28px] sm:text-[38px] leading-11 sm:leading-13 font-extrabold sm:font-bold font-vazir">
+        <h1 className="text-center  text-[#282828] pt-6 sm:pt-0 text-[28px] sm:text-[38px] leading-11 sm:leading-13 font-extrabold sm:font-bold">
           طراحی و توسعه وبسایت در کلاس جهانی
           <br className="lg:block hidden" /> برای متفاوت دیده شدن
         </h1>
-        <p className="pt-3 sm:pt-2 text-[14px] font-inter font-normal text-[#717171] leading-6 text-center font-vazir">
+        <p className="pt-3 sm:pt-2 text-[14px] font-inter font-normal text-[#717171] leading-6 text-center">
           تیم زمین آمده است تا برای طراحی و توسعه یک وبسایت دوستانه و مدرن در
           کنار شما
           <br />

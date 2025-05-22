@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Navbar() {
   return (
-    <div className="flex justify-center">
+    <nav className="flex justify-center">
       <div
         className="bg-white w-[361px] md:w-[537px] h-[56px] fixed top-[16px] rounded-[19px] shadow flex justify-between px-[12px] py-5 items-center  z-60
 "
@@ -18,7 +18,9 @@ function Navbar() {
         <div className="text-gray-500 hidden md:flex">
           <ul className="flex justify-between gap-[16px] text-sm font-inter cursor-pointer font-vazir">
             <li className="hover:text-black ">خدمات</li>
-            <li className="hover:text-black">نمونه ها</li>
+            <li className="hover:text-black">
+              <a href="#nemoone">نمونه ها</a>
+            </li>
             <li className="hover:text-black">قیمت</li>
             <li className="hover:text-black">درباره ما</li>
           </ul>
@@ -28,7 +30,7 @@ function Navbar() {
           <Image src={logoZamin} alt="" />
         </div>
       </div>
-    </div>
+    </nav>
   );
 }
 

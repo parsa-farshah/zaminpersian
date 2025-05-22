@@ -5,7 +5,7 @@ import imageWork from "../../public/images/imageWork2.svg";
 import younes from "../../public/images/younesImage.png";
 function Work() {
   return (
-    <div className="flex flex-col justify-center pt-[100px]">
+    <div className="flex flex-col justify-center pt-[100px]" id="nemoone">
       <div className="w-full max-w-[1400px] flex items-center justify-between gap-2 pt-8 sm:pt-4">
         <div className="bg-[#EAEAEA] w-full h-0.5"></div>
         <div className="flex gap-3">

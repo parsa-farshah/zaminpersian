@@ -1,18 +1,20 @@
 @font-face {
   font-family: "Vazir";
-  src: url("../public/fonts/Vazir-Regular.ttf");
+  src: url("../public/fonts/Vazir-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
+/* Tailwind import */
 @import "tailwindcss";
 
+/* Theme and font variables */
 :root {
   --background: #ffffff;
   --foreground: #171717;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "Geist Sans", sans-serif;
+  --font-sans: "Vazir", sans-serif;
   --font-mono: "Geist Mono", monospace;
 }
 
@@ -23,14 +25,15 @@
   }
 }
 
+/* Global reset and font usage */
 * {
   scroll-behavior: smooth;
-  font-family: "Vazir";
+  font-family: var(--font-sans);
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   background: #f5f5f5;
 }

@@ -21,7 +21,9 @@ function Navbar() {
             <li className="hover:text-black">
               <a href="#nemoone">نمونه ها</a>
             </li>
-            <li className="hover:text-black">قیمت</li>
+            <li className="hover:text-black">
+              <a href="#price">قیمت</a>
+            </li>
             <li className="hover:text-black">درباره ما</li>
           </ul>
         </div>

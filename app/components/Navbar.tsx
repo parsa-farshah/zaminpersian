@@ -17,7 +17,9 @@ function Navbar() {
         </div>
         <div className="text-gray-500 hidden md:flex">
           <ul className="flex justify-between gap-[16px] text-sm font-inter cursor-pointer font-vazir">
-            <li className="hover:text-black ">خدمات</li>
+            <li className="hover:text-black ">
+              <a href="#service">خدمات</a>
+            </li>
             <li className="hover:text-black">
               <a href="#nemoone">نمونه ها</a>
             </li>

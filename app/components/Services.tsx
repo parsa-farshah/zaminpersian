@@ -36,10 +36,10 @@ function Services() {
             <div className="pr-6 py-6 flex flex-col items-end">
               <Image src={uiDesign} alt="servis image" />
               <h1 className=" font-semibold text-[16px] pt-[13px]">طراحی UI</h1>
-              <p className="text-[#727272] text-[14px] font-normal text-right   pt-[13px] leading-6">
+              <pre className="text-[#727272] text-[14px] font-normal text-right   pt-[13px] leading-6">
                 طراحی رابط کاربری User Friendly برای <br />
                 تعامل بهتر کاربر با محصول و افزایش <br /> رضایت مشتری.
-              </p>
+              </pre>
             </div>
           </div>
           <div className=" bg-[#FFFFFF] rounded-3xl w-[45%] hidden sm:flex">
@@ -65,9 +65,12 @@ function Services() {
               <h1 className=" font-semibold text-[16px] pt-[13px]">
                 توسعه front-end
               </h1>
-              <p className="text-[#727272] text-justify text-right text-[14px] font-normal  pt-[13px] leading-6">
-                توسعه سمت فرانت با زبان js و<br /> تکنولوژی‌هایی مانند React,
-                Next js , <br />
+              <p
+                className="text-[#727272] text-right text-[14px] font-normal pt-[13px] leading-6"
+                dir="rtl"
+              >
+                توسعه سمت فرانت با زبان js و<br />
+                تکنولوژی‌هایی مانند React, Next js , <br />
                 Tailwind
               </p>
             </div>
@@ -78,7 +81,10 @@ function Services() {
               <h1 className=" font-semibold text-[16px] pt-[13px]">
                 توسعه Back-end
               </h1>
-              <p className="text-[#727272] text-right text-[14px] font-normal  pt-[13px]">
+              <p
+                className="text-[#727272] text-right text-[14px] font-normal  pt-[13px]"
+                dir="rtl"
+              >
                 توسعه سمت سرور با زبان python به <br />
                 کمک کتابخانه Django
               </p>

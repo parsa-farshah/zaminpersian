@@ -35,16 +35,16 @@ function Work() {
           <div className="pt-11">
             <Image className="object-cover" src={cafino} alt="image work" />
             {/* under image text */}
-            <div className="flex justify-between sm:justify-between items-center w-full h-[57px]">
+            <div className="flex justify-between sm:justify-between items-center w-full h-[57px] relative p-3">
               <div className="pt-5 flex flex-col justify-end items-end">
                 <div>
-                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir">
+                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir absolute left-[2%] top-2 ">
                     اعضا
                   </h3>
                 </div>
                 {/* 4image  */}
-                <div className="flex justify-end items-end pt-1 sm:pt-1">
-                  <div className="z-30 bg-amber-800 relative right-[-45px] w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                <div className="flex justify-end items-end pt-1 sm:pt-1 absolute left-0 top-7 ">
+                  <div className="z-1 bg-amber-800 relative left-[0px] w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       alt="imageYounes"
@@ -52,7 +52,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-20 relative right-[-30px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-2 relative right-[20px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
@@ -60,7 +60,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-10 relative right-[-15px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-3 relative right-[40px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
@@ -68,7 +68,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-0 relative left-[0px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-4 relative right-[60px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
@@ -78,19 +78,19 @@ function Work() {
                   </div>
                 </div>
               </div>
-              <div className="hidden sm:block">
-                <h3 className="font-inter flex justify-end font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
+              <div className="hidden sm:block relative left-[40px]">
+                <h3 className="font-inter flex justify-end font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir relative right-7">
                   تکنولوژی ها
                 </h3>
-                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4">
-                  Figma - next js
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 relative left-4">
+                  Figma - next js - python
                 </p>
               </div>
               <div>
-                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
+                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir absolute bottom-8 right-[2%]">
                   نام پروژه
                 </h3>
-                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir">
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir relative top-4">
                   وبسایت کافه‌یاب کافینو
                 </p>
               </div>
@@ -101,16 +101,16 @@ function Work() {
           <div className="pt-11">
             <Image className="object-cover" src={vender} alt="image work" />
             {/* under image text */}
-            <div className="flex justify-between sm:justify-between items-center w-full h-[57px]">
+            <div className="flex justify-between sm:justify-between items-center w-full h-[57px] relative p-3">
               <div className="pt-5 flex flex-col justify-end items-end">
                 <div>
-                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir">
+                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir absolute left-[2%] top-2 ">
                     اعضا
                   </h3>
                 </div>
                 {/* 4image  */}
-                <div className="flex justify-end items-end pt-1 sm:pt-1">
-                  <div className="z-30 bg-amber-800 relative right-[-45px] w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                <div className="flex justify-end items-end pt-1 sm:pt-1 absolute left-0 top-7 ">
+                  <div className="z-1 bg-amber-800 relative left-[0px] w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       alt="imageYounes"
@@ -118,7 +118,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-20 relative right-[-30px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-2 relative right-[20px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
@@ -126,7 +126,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-10 relative right-[-15px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-3 relative right-[40px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
@@ -134,7 +134,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-0 relative left-[0px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-4 relative right-[60px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
@@ -144,39 +144,38 @@ function Work() {
                   </div>
                 </div>
               </div>
-              <div className="hidden sm:block">
-                <h3 className="font-inter flex justify-end font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
+              <div className="hidden sm:block relative left-[40px]">
+                <h3 className="font-inter flex justify-end font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir relative right-5">
                   تکنولوژی ها
                 </h3>
-                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4">
-                  Figma - next js
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 relative left-5">
+                  Figma - next js - django
                 </p>
               </div>
               <div>
-                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
+                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir absolute bottom-8 right-[2%]">
                   نام پروژه
                 </h3>
-                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir">
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir relative top-4">
                   وندور برای مدیریت رستوران
                 </p>
               </div>
             </div>
-            {/* end under image */}
           </div>
           {/* image 3 */}
           <div className="pt-11">
             <Image className="object-cover" src={cafino2} alt="image work" />
             {/* under image text */}
-            <div className="flex justify-between sm:justify-between items-center w-full h-[57px]">
+            <div className="flex justify-between sm:justify-between items-center w-full h-[57px] relative p-3">
               <div className="pt-5 flex flex-col justify-end items-end">
                 <div>
-                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir">
+                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir absolute left-[2%] top-2 ">
                     اعضا
                   </h3>
                 </div>
                 {/* 4image  */}
-                <div className="flex justify-end items-end pt-1 sm:pt-1">
-                  <div className="z-30 bg-amber-800 relative right-[-45px] w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                <div className="flex justify-end items-end pt-1 sm:pt-1 absolute left-0 top-7 ">
+                  <div className="z-1 bg-amber-800 relative left-[0px] w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       alt="imageYounes"
@@ -184,7 +183,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-20 relative right-[-30px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-2 relative right-[20px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
@@ -192,7 +191,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-10 relative right-[-15px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-3 relative right-[40px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
@@ -200,7 +199,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-0 relative left-[0px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-4 relative right-[60px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
@@ -210,40 +209,39 @@ function Work() {
                   </div>
                 </div>
               </div>
-              <div className="hidden sm:block">
+              <div className="hidden sm:block relative left-[40px]">
                 <h3 className="font-inter flex justify-end font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
                   تکنولوژی ها
                 </h3>
-                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4">
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 relative left-4">
                   Figma - next js
                 </p>
               </div>
               <div>
-                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
+                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir absolute bottom-8 right-[2%]">
                   نام پروژه
                 </h3>
-                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir">
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir relative top-4">
                   کافینو
                 </p>
               </div>
             </div>
-            {/* end under image */}
           </div>
           {/* image3 end */}
           {/* image 4 */}
           <div className="pt-11">
             <Image className="object-cover" src={cafino3} alt="image work" />
             {/* under image text */}
-            <div className="flex justify-between sm:justify-between items-center w-full h-[57px]">
+            <div className="flex justify-between sm:justify-between items-center w-full h-[57px] relative p-3">
               <div className="pt-5 flex flex-col justify-end items-end">
                 <div>
-                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir">
+                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir absolute left-[2%] top-2 ">
                     اعضا
                   </h3>
                 </div>
                 {/* 4image  */}
-                <div className="flex justify-end items-end pt-1 sm:pt-1">
-                  <div className="z-30 bg-amber-800 relative right-[-45px] w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                <div className="flex justify-end items-end pt-1 sm:pt-1 absolute left-0 top-7 ">
+                  <div className="z-1 bg-amber-800 relative left-[0px] w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       alt="imageYounes"
@@ -251,7 +249,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-20 relative right-[-30px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-2 relative right-[20px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
@@ -259,7 +257,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-10 relative right-[-15px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-3 relative right-[40px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
@@ -267,7 +265,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-0 relative left-[0px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-4 relative right-[60px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
@@ -277,40 +275,39 @@ function Work() {
                   </div>
                 </div>
               </div>
-              <div className="hidden sm:block">
+              <div className="hidden sm:block relative left-[40px]">
                 <h3 className="font-inter flex justify-end font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
                   تکنولوژی ها
                 </h3>
-                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4">
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 relative left-4">
                   Figma - next js
                 </p>
               </div>
               <div>
-                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
+                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir absolute bottom-8 right-[2%]">
                   نام پروژه
                 </h3>
-                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir">
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir relative top-4">
                   کافینو
                 </p>
               </div>
             </div>
-            {/* end under image */}
           </div>
           {/* image4 end */}
           {/* image 5 */}
           <div className="pt-11">
             <Image className="object-cover" src={cafino4} alt="image work" />
             {/* under image text */}
-            <div className="flex justify-between sm:justify-between items-center w-full h-[57px]">
+            <div className="flex justify-between sm:justify-between items-center w-full h-[57px] relative p-3">
               <div className="pt-5 flex flex-col justify-end items-end">
                 <div>
-                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir">
+                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir absolute left-[2%] top-2 ">
                     اعضا
                   </h3>
                 </div>
                 {/* 4image  */}
-                <div className="flex justify-end items-end pt-1 sm:pt-1">
-                  <div className="z-30 bg-amber-800 relative right-[-45px] w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                <div className="flex justify-end items-end pt-1 sm:pt-1 absolute left-0 top-7 ">
+                  <div className="z-1 bg-amber-800 relative left-[0px] w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       alt="imageYounes"
@@ -318,7 +315,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-20 relative right-[-30px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-2 relative right-[20px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
@@ -326,7 +323,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-10 relative right-[-15px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-3 relative right-[40px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
@@ -334,7 +331,7 @@ function Work() {
                       layout="responsive"
                     />
                   </div>
-                  <div className="z-0 relative left-[0px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                  <div className="z-4 relative right-[60px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
                       src={younes}
@@ -344,24 +341,23 @@ function Work() {
                   </div>
                 </div>
               </div>
-              <div className="hidden sm:block">
+              <div className="hidden sm:block relative left-[40px]">
                 <h3 className="font-inter flex justify-end font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
                   تکنولوژی ها
                 </h3>
-                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4">
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 relative left-4">
                   Figma - next js
                 </p>
               </div>
               <div>
-                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
+                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir absolute bottom-8 right-[2%]">
                   نام پروژه
                 </h3>
-                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir">
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir relative top-4">
                   کافینو
                 </p>
               </div>
             </div>
-            {/* end under image */}
           </div>
           {/* image5 end */}
         </div>

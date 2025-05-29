@@ -210,10 +210,10 @@ function Work() {
                 </div>
               </div>
               <div className="hidden sm:block relative left-[40px]">
-                <h3 className="font-inter flex justify-end font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
+                <h3 className="font-inter flex justify-end font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir relative right-12">
                   تکنولوژی ها
                 </h3>
-                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 relative left-4">
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 relative right-7">
                   Figma - next js
                 </p>
               </div>
@@ -276,10 +276,10 @@ function Work() {
                 </div>
               </div>
               <div className="hidden sm:block relative left-[40px]">
-                <h3 className="font-inter flex justify-end font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
+                <h3 className="font-inter flex justify-end font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir relative right-12">
                   تکنولوژی ها
                 </h3>
-                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 relative left-4">
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 relative right-6">
                   Figma - next js
                 </p>
               </div>
@@ -342,10 +342,10 @@ function Work() {
                 </div>
               </div>
               <div className="hidden sm:block relative left-[40px]">
-                <h3 className="font-inter flex justify-end font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
+                <h3 className="font-inter flex justify-end font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir relative right-12">
                   تکنولوژی ها
                 </h3>
-                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 relative left-4">
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 relative right-6">
                   Figma - next js
                 </p>
               </div>

@@ -10,10 +10,15 @@ function Navbar() {
 "
       >
         <div className="w-[86px] h-[36px] bg-[#F6F8FA] rounded-xl flex justify-around items-center  ">
-          <button className="bg-[#FFFFFF] w-[37px] h-[28px] rounded-md shadow-2xs font-vazir">
+          <button className="bg-[#FFFFFF] w-[37px] h-[28px] rounded-md shadow-2xs font-vazir flex justify-center items-center">
             فا
           </button>
-          <button>EN</button>
+          <a
+            href="https://parsa-farshah.github.io/zamin2/"
+            className="flex justify-center items-center relative right-1 uppercase"
+          >
+            en
+          </a>
         </div>
         <div className="text-gray-500 hidden md:flex">
           <ul className="flex justify-between gap-[16px] text-sm font-inter cursor-pointer font-vazir">
@@ -30,7 +35,7 @@ function Navbar() {
           </ul>
         </div>
         <div className="flex items-center gap-3 ">
-          <h1 className="text-black font-bold font-inter font-vazir">زمین</h1>
+          <h1 className="text-black font-bold font-inter font-vazir">زمــین</h1>
           <Image src={logoZamin} alt="" />
         </div>
       </div>

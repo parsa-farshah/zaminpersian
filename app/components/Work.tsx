@@ -1,7 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import dotWork from "../../public/images/dotsWork.svg";
-import imageWork from "../../public/images/imageWork2.svg";
+import cafino from "../../public/images/cafino.png";
+import vender from "../../public/images/vender.png";
+import cafino2 from "../../public/images/cafino2.png";
+import cafino3 from "../../public/images/cafino3.png";
+import cafino4 from "../../public/images/cafino4.png";
 import younes from "../../public/images/younesImage.png";
 function Work() {
   return (
@@ -29,7 +33,7 @@ function Work() {
         {/* image section */}
         <div className="pt-11">
           <div className="pt-11">
-            <Image className="object-cover" src={imageWork} alt="image work" />
+            <Image className="object-cover" src={cafino} alt="image work" />
             {/* under image text */}
             <div className="flex justify-between sm:justify-between items-center w-full h-[57px]">
               <div className="pt-5 flex flex-col justify-end items-end">
@@ -87,7 +91,7 @@ function Work() {
                   نام پروژه
                 </h3>
                 <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir">
-                  کافینو
+                  وبسایت کافه‌یاب کافینو
                 </p>
               </div>
             </div>
@@ -95,7 +99,73 @@ function Work() {
           </div>
           {/* image 2 */}
           <div className="pt-11">
-            <Image className="object-cover" src={imageWork} alt="image work" />
+            <Image className="object-cover" src={vender} alt="image work" />
+            {/* under image text */}
+            <div className="flex justify-between sm:justify-between items-center w-full h-[57px]">
+              <div className="pt-5 flex flex-col justify-end items-end">
+                <div>
+                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir">
+                    اعضا
+                  </h3>
+                </div>
+                {/* 4image  */}
+                <div className="flex justify-end items-end pt-1 sm:pt-1">
+                  <div className="z-30 bg-amber-800 relative right-[-45px] w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                    <Image
+                      className="rounded-2xl"
+                      alt="imageYounes"
+                      src={younes}
+                      layout="responsive"
+                    />
+                  </div>
+                  <div className="z-20 relative right-[-30px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                    <Image
+                      className="rounded-2xl"
+                      src={younes}
+                      alt="imageYounes"
+                      layout="responsive"
+                    />
+                  </div>
+                  <div className="z-10 relative right-[-15px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                    <Image
+                      className="rounded-2xl"
+                      src={younes}
+                      alt="imageYounes"
+                      layout="responsive"
+                    />
+                  </div>
+                  <div className="z-0 relative left-[0px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                    <Image
+                      className="rounded-2xl"
+                      src={younes}
+                      alt="imageYounes"
+                      layout="responsive"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="hidden sm:block">
+                <h3 className="font-inter flex justify-end font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
+                  تکنولوژی ها
+                </h3>
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4">
+                  Figma - next js
+                </p>
+              </div>
+              <div>
+                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
+                  نام پروژه
+                </h3>
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir">
+                  وندور برای مدیریت رستوران
+                </p>
+              </div>
+            </div>
+            {/* end under image */}
+          </div>
+          {/* image 3 */}
+          <div className="pt-11">
+            <Image className="object-cover" src={cafino2} alt="image work" />
             {/* under image text */}
             <div className="flex justify-between sm:justify-between items-center w-full h-[57px]">
               <div className="pt-5 flex flex-col justify-end items-end">
@@ -159,6 +229,141 @@ function Work() {
             </div>
             {/* end under image */}
           </div>
+          {/* image3 end */}
+          {/* image 4 */}
+          <div className="pt-11">
+            <Image className="object-cover" src={cafino3} alt="image work" />
+            {/* under image text */}
+            <div className="flex justify-between sm:justify-between items-center w-full h-[57px]">
+              <div className="pt-5 flex flex-col justify-end items-end">
+                <div>
+                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir">
+                    اعضا
+                  </h3>
+                </div>
+                {/* 4image  */}
+                <div className="flex justify-end items-end pt-1 sm:pt-1">
+                  <div className="z-30 bg-amber-800 relative right-[-45px] w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                    <Image
+                      className="rounded-2xl"
+                      alt="imageYounes"
+                      src={younes}
+                      layout="responsive"
+                    />
+                  </div>
+                  <div className="z-20 relative right-[-30px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                    <Image
+                      className="rounded-2xl"
+                      src={younes}
+                      alt="imageYounes"
+                      layout="responsive"
+                    />
+                  </div>
+                  <div className="z-10 relative right-[-15px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                    <Image
+                      className="rounded-2xl"
+                      src={younes}
+                      alt="imageYounes"
+                      layout="responsive"
+                    />
+                  </div>
+                  <div className="z-0 relative left-[0px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                    <Image
+                      className="rounded-2xl"
+                      src={younes}
+                      alt="imageYounes"
+                      layout="responsive"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="hidden sm:block">
+                <h3 className="font-inter flex justify-end font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
+                  تکنولوژی ها
+                </h3>
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4">
+                  Figma - next js
+                </p>
+              </div>
+              <div>
+                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
+                  نام پروژه
+                </h3>
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir">
+                  کافینو
+                </p>
+              </div>
+            </div>
+            {/* end under image */}
+          </div>
+          {/* image4 end */}
+          {/* image 5 */}
+          <div className="pt-11">
+            <Image className="object-cover" src={cafino4} alt="image work" />
+            {/* under image text */}
+            <div className="flex justify-between sm:justify-between items-center w-full h-[57px]">
+              <div className="pt-5 flex flex-col justify-end items-end">
+                <div>
+                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir">
+                    اعضا
+                  </h3>
+                </div>
+                {/* 4image  */}
+                <div className="flex justify-end items-end pt-1 sm:pt-1">
+                  <div className="z-30 bg-amber-800 relative right-[-45px] w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                    <Image
+                      className="rounded-2xl"
+                      alt="imageYounes"
+                      src={younes}
+                      layout="responsive"
+                    />
+                  </div>
+                  <div className="z-20 relative right-[-30px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                    <Image
+                      className="rounded-2xl"
+                      src={younes}
+                      alt="imageYounes"
+                      layout="responsive"
+                    />
+                  </div>
+                  <div className="z-10 relative right-[-15px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                    <Image
+                      className="rounded-2xl"
+                      src={younes}
+                      alt="imageYounes"
+                      layout="responsive"
+                    />
+                  </div>
+                  <div className="z-0 relative left-[0px] bg-amber-800 w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
+                    <Image
+                      className="rounded-2xl"
+                      src={younes}
+                      alt="imageYounes"
+                      layout="responsive"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="hidden sm:block">
+                <h3 className="font-inter flex justify-end font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
+                  تکنولوژی ها
+                </h3>
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4">
+                  Figma - next js
+                </p>
+              </div>
+              <div>
+                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir">
+                  نام پروژه
+                </h3>
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir">
+                  کافینو
+                </p>
+              </div>
+            </div>
+            {/* end under image */}
+          </div>
+          {/* image5 end */}
         </div>
       </div>
       <div className="pt-14">

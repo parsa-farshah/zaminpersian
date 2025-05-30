@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import dotWork from "../../public/images/dotsWork.svg";
 import Image from "next/image";
-import { div } from "framer-motion/m";
 
 const faqItems = [
   {

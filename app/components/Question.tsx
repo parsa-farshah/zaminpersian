@@ -75,7 +75,9 @@ function Question() {
                 onClick={() => toggle(index)}
                 className="w-full flex items-center justify-between p-5 text-left"
               >
-                <p className="text-base font-medium">{item.question}</p>
+                <p className="text-base font-medium text-right">
+                  {item.question}
+                </p>
                 <motion.div
                   animate={{ rotate: openIndex === index ? 180 : 0 }}
                   transition={{ duration: 0.4 }}
@@ -88,7 +90,8 @@ function Question() {
                   initial={{ height: 0, opacity: 0 }}
                   animate={{ height: "auto", opacity: 1 }}
                   exit={{ height: 0, opacity: 0 }}
-                  className="px-5 pb-5 text-gray-600 text-sm"
+                  className="px-5 pb-5 text-gray-600 text-sm text-right"
+                  dir="rtl"
                 >
                   {item.answer}
                 </motion.div>

@@ -25,7 +25,7 @@ function Price() {
       {/* cards */}
       <div className="flex flex-col items-center sm:flex-row pt-11 gap-6 justify-center">
         {/* first */}
-        <div className="w-[262px] h-auto bg-[#FFFFFF] rounded-[20px] pt-[32px] px-4 pb-[16px] text-right">
+        <div className="w-[100%] sm:w-[262px] h-auto bg-[#FFFFFF] rounded-[20px] pt-[32px] px-4 pb-[16px] text-right">
           <h1 className=" font-semibold text-[16px] ">طراحی صفحه فرود</h1>
           <div className="flex pt-4 items-center flex-row-reverse gap-2">
             <h1 className=" font-extrabold text-[26px]">398,000</h1>
@@ -67,7 +67,7 @@ function Price() {
           </div>
         </div>
         {/* second */}
-        <div className="w-[262px] text-right h-auto bg-[#FFFFFF] rounded-[20px] pt-[32px] px-4 pb-[16px]">
+        <div className="w-[100%] sm:w-[262px] text-right h-auto bg-[#FFFFFF] rounded-[20px] pt-[32px] px-4 pb-[16px]">
           <h1 className=" font-semibold text-[16px] ">
             طراحی نسخه اولیه محصول
           </h1>

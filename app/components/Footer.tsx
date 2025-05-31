@@ -28,14 +28,14 @@ function Footer() {
               </address>
             </div>
             {/* email phone */}
-            <div className="w-full flex justify-between h-[24px] mt-[16px]">
-              <div className="w-[40%] flex items-center  gap-4">
+            <div className="w-full flex justify-between h-[30px] mt-[16px]">
+              <div className="w-[40%] flex items-center  gap-2">
                 <Image src={email} alt="email" />
                 <span className="text-[14px] sm:text-[17px]">
                   info@zaminweb.ir
                 </span>
               </div>
-              <div className="w-[40%] flex items-center gap-4">
+              <div className="w-[40%]  flex items-center gap-2">
                 <Image src={phone} alt="phone" />
                 <span className="text-[14px] sm:text-[17px]">09384547055</span>
               </div>

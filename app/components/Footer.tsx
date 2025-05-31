@@ -19,7 +19,7 @@ function Footer() {
           <div className="w-[60%] pt-6 sm:pt-0">
             {/* address */}
             <div className=" flex h-[24px] items-center gap-3 font-normal text-[14px]">
-              <div className="w-[22px]">
+              <div className="w-[14px] h-[14px] sm:w-[18px] sm:h-[20px]">
                 <Image src={address} alt="address" />
               </div>
 
@@ -28,16 +28,21 @@ function Footer() {
               </address>
             </div>
             {/* email phone */}
-            <div className="w-full flex justify-between h-[30px] mt-[16px]">
-              <div className="w-[40%] flex items-center  gap-2">
-                <Image src={email} alt="email" />
-                <span className="text-[14px] sm:text-[17px]">
+            <div className="w-full flex items-center justify-between h-[30px] mt-[16px]">
+              <div className="flex items-center  gap-2">
+                <div className="flex items-center w-[14px] h-[14px]  sm:w-[20px] sm:h-[20px]">
+                  <Image src={email} alt="email" />
+                </div>
+                <span className="text-[10px]  sm:text-[17px]">
                   info@zaminweb.ir
                 </span>
               </div>
-              <div className="w-[40%]  flex items-center gap-2">
-                <Image src={phone} alt="phone" />
-                <span className="text-[14px] sm:text-[17px]">09384547055</span>
+              <div className="flex  items-center gap-2">
+                <div className="flex items-center w-[10px] h-[8px]  sm:w-[20px] sm:h-[20px]">
+                  <Image src={phone} alt="phone" />
+                </div>
+
+                <span className="text-[10px]  sm:text-[17px]">09384547055</span>
               </div>
             </div>
             {/* email phone end*/}

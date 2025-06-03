@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="flex justify-center">
       <div
-        className="bg-white w-[361px] md:w-[537px] h-[56px] fixed top-[16px] rounded-[19px] shadow flex justify-between px-[12px] py-5 items-center  z-60
+        className="bg-[white] w-[353px] md:w-[536px] h-[56px] fixed top-[16px] rounded-[19px] shadow flex justify-between px-[12px] py-5 items-center  z-60
 "
       >
         <div className="w-[86px] h-[36px] bg-[#F6F8FA] rounded-xl flex justify-around items-center  ">

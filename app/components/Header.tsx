@@ -36,12 +36,12 @@ function Header() {
           <div className="bg-[#BFBFBF] w-full h-0.5"></div>
           <div className="flex gap-3">
             <div className="w-full flex justify-center">
-              <button className="w-[131px] cursor-pointer flex justify-center items-center h-9 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br shadow-md shadow-blue-100/20 dark:shadow-md dark:shadow-blue-300/80 font-medium rounded-lg text-sm text-center font-vazir transform transition hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+              <button className="w-[131px] cursor-pointer flex  justify-center text-sm items-center h-9 text-[#1B1B1B] bg-gradient-to-r from-gray-300 via-gray-200 to-gray-300 hover:bg-gradient-to-br shadow-md shadow-gray-100/20 dark:shadow-md dark:shadow-gray-300/80 font-medium rounded-lg text-center font-vazir transform transition hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
                 اطلاعات بیشتر
               </button>
             </div>
             <div className="w-full flex justify-center">
-              <button className="w-[131px] cursor-pointer flex  justify-center text-sm items-center h-9 text-[#1B1B1B] bg-gradient-to-r from-gray-300 via-gray-200 to-gray-300 hover:bg-gradient-to-br shadow-md shadow-gray-100/20 dark:shadow-md dark:shadow-gray-300/80 font-medium rounded-lg text-center font-vazir transform transition hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none ">
+              <button className=" w-[131px] cursor-pointer flex justify-center items-center h-9 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br shadow-md shadow-blue-100/20 dark:shadow-md dark:shadow-blue-300/80 font-medium rounded-lg text-sm text-center font-vazir transform transition hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none ">
                 ثبت درخواست
               </button>
             </div>

@@ -3,7 +3,6 @@ import React from "react";
 import headerXl from "../../public/images/Desktop and tablet.webp";
 import headerMobile from "../../public/images/mobile.webp";
 import younes from "../../public/images/younesImage.png";
-
 function Header() {
   return (
     <div className="w-full flex flex-col items-center justify-center pt-[50px]">

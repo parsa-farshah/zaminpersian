@@ -21,7 +21,7 @@ function Navbar() {
           </a>
         </div>
         <div className="text-gray-500 hidden md:flex">
-          <ul className="flex justify-between gap-[16px] text-sm font-inter cursor-pointer font-vazir">
+          <ul className="flex flex-row-reverse justify-between gap-[16px] text-sm font-inter cursor-pointer font-vazir">
             <li className="hover:text-black ">
               <a href="#service">خدمات</a>
             </li>

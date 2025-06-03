@@ -35,14 +35,16 @@ function Services() {
           <div className=" bg-[#FFFFFF] rounded-3xl w-[100%] sm:w-[45%]">
             <div className="pr-6 py-6 flex flex-col items-end">
               <Image src={uiDesign} alt="servis image" />
-              <h1 className=" font-semibold text-[16px] pt-[13px]">طراحی UI</h1>
+              <h1 className=" font-semibold text-[16px] pt-[13px]" dir="rtl">
+                طراحی UI
+              </h1>
               <pre className="text-[#727272] text-[14px] font-normal text-right   pt-[13px] leading-6">
                 طراحی رابط کاربری User Friendly برای <br />
                 تعامل بهتر کاربر با محصول و افزایش <br /> رضایت مشتری.
               </pre>
             </div>
           </div>
-          <div className=" bg-[#FFFFFF] rounded-3xl w-[45%] hidden sm:flex">
+          <div className=" bg-[#FFFFFF] rounded-3xl w-[45%] hidden sm:flex sm:justify-end pr-6">
             <div className="pl-9 pt-6 flex flex-col items-end">
               <Image src={uxResearch} alt="servis image" />
               <h1 className=" font-semibold text-[16px] pt-[13px]">
@@ -62,7 +64,7 @@ function Services() {
           <div className=" bg-[#FFFFFF] rounded-3xl w-[100%] sm:w-[45%]">
             <div className="pr-6 py-6 flex flex-col items-end">
               <Image src={frontEnd} alt="servis image" />
-              <h1 className=" font-semibold text-[16px] pt-[13px]">
+              <h1 className=" font-semibold text-[16px] pt-[13px]" dir="rtl">
                 توسعه front-end
               </h1>
               <p
@@ -75,10 +77,10 @@ function Services() {
               </p>
             </div>
           </div>
-          <div className="bg-[#FFFFFF] rounded-3xl w-[45%] hidden sm:flex">
+          <div className="bg-[#FFFFFF] rounded-3xl w-[45%] hidden sm:flex sm:justify-end pr-6">
             <div className="pl-13 pt-6 flex flex-col items-end">
               <Image src={backEnd} alt="servis image" />
-              <h1 className=" font-semibold text-[16px] pt-[13px]">
+              <h1 className=" font-semibold text-[16px] pt-[13px]" dir="rtl">
                 توسعه Back-end
               </h1>
               <p

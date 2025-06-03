@@ -4,7 +4,7 @@ function NavbarPort() {
   return (
     <nav className="flex justify-center" dir="rtl">
       <div
-        className="w-full absolute top-0 left-0 h-screen bg-cover bg-center z-0"
+        className="w-full absolute top-0 left-0 h-screen bg-cover bg-center z-2"
         style={{ backgroundImage: "url('/images/bg-portfolio2.png')" }}
       ></div>
       <div className="bg-gradient-to-r from-[#383838] via-[#000000] to-[#383838] w-[353px] md:w-[429px] h-[56px] fixed top-[16px] rounded-[19px] shadow flex justify-between  mt-[37px] items-center  z-60">

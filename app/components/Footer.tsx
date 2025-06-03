@@ -3,7 +3,6 @@ import zamin from "../../public/images/zamin.png";
 import instagram from "../../public/images/Instagram.png";
 import linkedin from "../../public/images/linkedin black.1.png";
 import twitter from "../../public/images/twitter black.1.png";
-
 import Image from "next/image";
 
 function Footer() {

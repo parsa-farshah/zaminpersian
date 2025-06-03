@@ -108,7 +108,7 @@ function PortfolioRecent() {
         <div className="bg-white rounded-2xl h-[497px] mt-6">
           <Image
             className="object-cover w-[97%] mx-auto pt-2 h-[400px]"
-            src={cafino}
+            src={vender}
             alt="image work"
           />
           {/* under image text */}
@@ -178,7 +178,7 @@ function PortfolioRecent() {
         <div className="bg-white rounded-2xl h-[497px] mt-6">
           <Image
             className="object-cover w-[97%] mx-auto pt-2 h-[400px]"
-            src={cafino}
+            src={cafino2}
             alt="image work"
           />
           {/* under image text */}
@@ -249,7 +249,7 @@ function PortfolioRecent() {
         <div className="bg-white rounded-2xl h-[497px] mt-6">
           <Image
             className="object-cover w-[97%] mx-auto pt-2 h-[400px]"
-            src={cafino}
+            src={cafino3}
             alt="image work"
           />
           {/* under image text */}
@@ -320,7 +320,7 @@ function PortfolioRecent() {
         <div className="bg-white rounded-2xl h-[497px] mt-6">
           <Image
             className="object-cover w-[97%] mx-auto pt-2 h-[400px]"
-            src={cafino}
+            src={cafino4}
             alt="image work"
           />
           {/* under image text */}

@@ -7,6 +7,7 @@ import cafino2 from "../../public/images/cafino2.png";
 import cafino3 from "../../public/images/cafino3.png";
 import cafino4 from "../../public/images/cafino4.png";
 import younes from "../../public/images/younesImage.png";
+import Link from "next/link";
 function Work() {
   return (
     <div className="flex flex-col justify-center pt-[100px]" id="nemoone">
@@ -367,9 +368,11 @@ function Work() {
           <div className="bg-[#EAEAEA] w-full h-0.5"></div>
           <div className="flex gap-3">
             <div className="w-full flex justify-center">
-              <button className="w-[138px] cursor-pointer flex justify-center text-sm items-center h-9 text-black bg-[white] font-medium rounded-lg text-center font-vazir border-2 border-[#EAEAEA]">
-                نمونه کارهای بیشتر
-              </button>
+              <Link href="/portfolio">
+                <button className="w-[138px] cursor-pointer flex justify-center text-sm items-center h-9 text-black bg-[white] font-medium rounded-lg text-center font-vazir border-2 border-[#EAEAEA]">
+                  نمونه کارهای بیشتر
+                </button>
+              </Link>
             </div>
           </div>
           <div className="bg-[#EAEAEA] w-full h-0.5"></div>

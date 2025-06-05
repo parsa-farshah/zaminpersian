@@ -7,7 +7,7 @@ import vender from "../../public/images/vender.png";
 import cafino2 from "../../public/images/cafino2.png";
 import cafino3 from "../../public/images/cafino3.png";
 import cafino4 from "../../public/images/cafino4.png";
-import bg from "../../public/images/bg-portfolio2.png";
+import bg3 from "../../public/images/bgPortfolio3.webp";
 
 function PortfolioRecent() {
   return (
@@ -15,7 +15,7 @@ function PortfolioRecent() {
       <div className="w-full flex justify-center">
         <Image
           className="object-cover absolute top-0 left-0 w-full h-[448px] "
-          src={bg}
+          src={bg3}
           alt="haeder Image Xl"
         />
       </div>
@@ -46,7 +46,7 @@ function PortfolioRecent() {
         <div className="pt-11">
           <div className="bg-white rounded-2xl h-[497px]">
             <Image
-              className="object-cover w-[97%] mx-auto pt-2 h-[400px]"
+              className="object-cover w-[97%] mx-auto pt-2 h-[400px] rounded-2xl"
               src={cafino}
               alt="image work"
             />
@@ -54,12 +54,12 @@ function PortfolioRecent() {
             <div className="flex justify-between sm:justify-between items-center w-full h-[57px] relative p-3 mt-3">
               <div className="pt-5 flex flex-col justify-end items-end">
                 <div>
-                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir absolute left-[2%] top-2 ">
+                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir absolute left-[4%] top-2 ">
                     اعضا
                   </h3>
                 </div>
                 {/* 4image  */}
-                <div className="flex justify-end items-end pt-1 sm:pt-1 absolute left-0 top-7 ">
+                <div className="flex justify-end items-end pt-1 sm:pt-1 absolute left-[2%] top-7 ">
                   <div className="z-1 bg-amber-800 relative left-[5px] w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
@@ -103,10 +103,10 @@ function PortfolioRecent() {
                 </p>
               </div>
               <div>
-                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir absolute bottom-8 right-[2%]">
+                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir absolute bottom-8 right-[4%]">
                   نام پروژه
                 </h3>
-                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir relative top-4">
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir relative right-[6%] top-4">
                   وبسایت کافه‌یاب کافینو
                 </p>
               </div>
@@ -116,7 +116,7 @@ function PortfolioRecent() {
           {/* image 2 */}
           <div className="bg-white rounded-2xl h-[497px] mt-6">
             <Image
-              className="object-cover w-[97%] mx-auto pt-2 h-[400px]"
+              className="object-cover w-[97%] mx-auto pt-2 h-[400px] rounded-2xl"
               src={vender}
               alt="image work"
             />
@@ -124,12 +124,12 @@ function PortfolioRecent() {
             <div className="flex justify-between sm:justify-between items-center w-full h-[57px] relative p-3 mt-3">
               <div className="pt-5 flex flex-col justify-end items-end">
                 <div>
-                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir absolute left-[2%] top-2 ">
+                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir absolute left-[4%] top-2 ">
                     اعضا
                   </h3>
                 </div>
                 {/* 4image  */}
-                <div className="flex justify-end items-end pt-1 sm:pt-1 absolute left-0 top-7 ">
+                <div className="flex justify-end items-end pt-1 sm:pt-1 absolute left-[2%] top-7 ">
                   <div className="z-1 bg-amber-800 relative left-[5px] w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
@@ -186,7 +186,7 @@ function PortfolioRecent() {
           {/* image 3 */}
           <div className="bg-white rounded-2xl h-[497px] mt-6">
             <Image
-              className="object-cover w-[97%] mx-auto pt-2 h-[400px]"
+              className="object-cover w-[97%] mx-auto pt-2 h-[400px] rounded-2xl"
               src={cafino2}
               alt="image work"
             />
@@ -243,10 +243,10 @@ function PortfolioRecent() {
                 </p>
               </div>
               <div>
-                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir absolute bottom-8 right-[2%]">
+                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir absolute bottom-8 right-[4%]">
                   نام پروژه
                 </h3>
-                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir relative top-4">
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir relative right-[6%] top-4">
                   وبسایت کافه‌یاب کافینو
                 </p>
               </div>
@@ -257,7 +257,7 @@ function PortfolioRecent() {
           {/* image 4 */}
           <div className="bg-white rounded-2xl h-[497px] mt-6">
             <Image
-              className="object-cover w-[97%] mx-auto pt-2 h-[400px]"
+              className="object-cover w-[97%] mx-auto pt-2 h-[400px] rounded-2xl"
               src={cafino3}
               alt="image work"
             />
@@ -265,12 +265,12 @@ function PortfolioRecent() {
             <div className="flex justify-between sm:justify-between items-center w-full h-[57px] relative p-3 mt-3">
               <div className="pt-5 flex flex-col justify-end items-end">
                 <div>
-                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir absolute left-[2%] top-2 ">
+                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir absolute left-[4%] top-2 ">
                     اعضا
                   </h3>
                 </div>
                 {/* 4image  */}
-                <div className="flex justify-end items-end pt-1 sm:pt-1 absolute left-0 top-7 ">
+                <div className="flex justify-end items-end pt-1 sm:pt-1 absolute left-[2%] top-7 ">
                   <div className="z-1 bg-amber-800 relative left-[5px] w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
@@ -314,10 +314,10 @@ function PortfolioRecent() {
                 </p>
               </div>
               <div>
-                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir absolute bottom-8 right-[2%]">
+                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir absolute bottom-8 right-[4%]">
                   نام پروژه
                 </h3>
-                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir relative top-4">
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir relative right-[6%] top-4">
                   وبسایت کافه‌یاب کافینو
                 </p>
               </div>
@@ -328,7 +328,7 @@ function PortfolioRecent() {
           {/* image 5 */}
           <div className="bg-white rounded-2xl h-[497px] mt-6">
             <Image
-              className="object-cover w-[97%] mx-auto pt-2 h-[400px]"
+              className="object-cover w-[97%] mx-auto pt-2 h-[400px] rounded-2xl"
               src={cafino4}
               alt="image work"
             />
@@ -336,12 +336,12 @@ function PortfolioRecent() {
             <div className="flex justify-between sm:justify-between items-center w-full h-[57px] relative p-3 mt-3">
               <div className="pt-5 flex flex-col justify-end items-end">
                 <div>
-                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir absolute left-[2%] top-2 ">
+                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir absolute left-[4%] top-2 ">
                     اعضا
                   </h3>
                 </div>
                 {/* 4image  */}
-                <div className="flex justify-end items-end pt-1 sm:pt-1 absolute left-0 top-7 ">
+                <div className="flex justify-end items-end pt-1 sm:pt-1 absolute left-[2%] top-7 ">
                   <div className="z-1 bg-amber-800 relative left-[5px] w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"
@@ -385,10 +385,10 @@ function PortfolioRecent() {
                 </p>
               </div>
               <div>
-                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir absolute bottom-8 right-[2%]">
+                <h3 className="font-inter font-bold text-[10px] text-[#C3C3C3] pt-4 font-vazir absolute bottom-8 right-[4%]">
                   نام پروژه
                 </h3>
-                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir relative top-4">
+                <p className="font-inter font-normal text-[14px] text-[#464646] pt-4 font-vazir relative right-[6%] top-4">
                   وبسایت کافه‌یاب کافینو
                 </p>
               </div>

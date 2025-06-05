@@ -194,12 +194,12 @@ function PortfolioRecent() {
             <div className="flex justify-between sm:justify-between items-center w-full h-[57px] relative p-3 mt-3">
               <div className="pt-5 flex flex-col justify-end items-end">
                 <div>
-                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir absolute left-[2%] top-2 ">
+                  <h3 className="font-inter flex justify-end font-bold text-[10px]  text-[#C3C3C3] font-vazir absolute left-[4%] top-2 ">
                     اعضا
                   </h3>
                 </div>
                 {/* 4image  */}
-                <div className="flex justify-end items-end pt-1 sm:pt-1 absolute left-0 top-7 ">
+                <div className="flex justify-end items-end pt-1 sm:pt-1 absolute left-[2%] top-7 ">
                   <div className="z-1 bg-amber-800 relative left-[5px] w-[36px] h-[36px] rounded-[24px] border-2 border-[#F5F5F5]">
                     <Image
                       className="rounded-2xl"

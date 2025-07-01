@@ -6,6 +6,7 @@ import Work from "./components/Work";
 import Form from "./components/Form";
 import Question from "./components/Question";
 import Footer from "./components/Footer";
+import AboutUs from "./components/AboutUs";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Navbar />
         <Header />
         <Work />
+        <AboutUs />
         <Services />
         <Price />
         <Form />

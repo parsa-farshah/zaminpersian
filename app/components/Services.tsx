@@ -8,7 +8,10 @@ import backEnd from "../../public/images/backEnd.svg";
 
 function Services() {
   return (
-    <div className="flex flex-col justify-center pt-[100px]" id="service">
+    <div
+      className="flex flex-col justify-center mt-[100px] pt-[100px]"
+      id="service"
+    >
       <div className="w-full max-w-[1400px] flex items-center justify-between gap-2 pt-8 sm:pt-4">
         <div className="bg-[#EAEAEA] w-full h-0.5"></div>
         <div className="flex gap-3">

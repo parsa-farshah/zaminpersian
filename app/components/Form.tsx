@@ -19,7 +19,7 @@ function form() {
         <div className="bg-[#EAEAEA] w-full h-0.5"></div>
       </div>
       <div
-        className="w-full h-[600px] bg-white mt-11 rounded-3xl p-5 gap-6"
+        className="w-full h-[334px] bg-white mt-11 rounded-3xl p-5 gap-6 pb-[80px]"
         dir="rtl"
       >
         <form action="req.php" className="w-full">
@@ -34,14 +34,14 @@ function form() {
               className="w-[48%] bg-[#F6F6F6] p-3 rounded-xl h-[42px] border-none"
               type="text"
               id="information"
-              placeholder="ایمیل سازمانی"
+              placeholder="نام و نام خانوادگی"
               name="email"
             />
             <input
               className="w-[48%] bg-[#F6F6F6] p-3 rounded-xl h-[42px] border-none"
               type="text"
               id="information"
-              placeholder="نام و نام خانوادگی"
+              placeholder="ایمیل سازمانی"
               name="name"
             />
           </div>
@@ -51,76 +51,7 @@ function form() {
             id="information"
             placeholder="توضیحاتی درباره پروژه"
           ></textarea>
-          <div className="mt-6">
-            <h5 className="font-medium text-[14px] text-black">
-              به چه کمک‌هایی نیاز دارید؟
-            </h5>
-            <div className="flex items-center gap-6 mt-4">
-              <div className="flex items-center">
-                <input
-                  type="checkbox"
-                  name="tahghigh"
-                  id="tahghigh"
-                  className="w-5 h-5"
-                />
-                <label
-                  htmlFor="tahghigh"
-                  className="text-[#999999] font-medium text-[14px] pr-4 "
-                >
-                  تحقیق
-                </label>
-              </div>
-              <div className="flex items-center">
-                <input
-                  type="checkbox"
-                  name="design"
-                  id="design"
-                  className="w-5 h-5"
-                />
-                <label
-                  htmlFor="design"
-                  className="text-[#999999] font-medium text-[14px] pr-4 "
-                >
-                  طراحی
-                </label>
-              </div>
-              <div className="flex items-center">
-                <input
-                  type="checkbox"
-                  name="develop"
-                  id="develop"
-                  className="w-5 h-5"
-                />
-                <label
-                  htmlFor="develop"
-                  className="text-[#999999] font-medium text-[14px] pr-4 "
-                >
-                  توسعه
-                </label>
-              </div>
-            </div>
-          </div>
-          <div className="mt-6">
-            <label htmlFor="Budget">بودجه</label>
-            <div className="mt-4">
-              <input
-                type="text"
-                name="Budget"
-                id="Budget"
-                placeholder="از"
-                className="w-full bg-[#F6F6F6] h-11 rounded-xl p-3 gap-4"
-              />
-            </div>
-            <div className="mt-2">
-              <input
-                type="text"
-                name="Budget"
-                id="Budget"
-                placeholder="تا"
-                className="w-full bg-[#F6F6F6] h-11 rounded-xl p-3 gap-4"
-              />
-            </div>
-          </div>
+
           <input
             type="submit"
             value="ثبت درخواست"

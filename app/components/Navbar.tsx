@@ -31,7 +31,9 @@ function Navbar() {
             <li className="hover:text-black">
               <a href="#price">قیمت</a>
             </li>
-            <li className="hover:text-black">درباره ما</li>
+            <li className="hover:text-black">
+              <a href="#aboutUs">درباره ما</a>
+            </li>
           </ul>
         </div>
         <div className="flex items-center gap-3 ">

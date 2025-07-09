@@ -5,7 +5,7 @@ import parsaImage from "../../public/images/parsa.png";
 import Image from "next/image";
 function AboutUs() {
   return (
-    <div id="aboutUs" className="w-full h-[597px] sm:h-[80vh] pt-[80px]">
+    <div id="aboutUs" className="w-full h-[597px] sm:h-[460px] pt-[80px]">
       <div className="w-full max-w-[1400px] flex items-center justify-between gap-2 pt-8 sm:pt-4">
         <div className="bg-[#EAEAEA] w-full h-0.5"></div>
         <div className="flex gap-3">
